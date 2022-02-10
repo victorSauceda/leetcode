@@ -12,7 +12,7 @@ let bsearch = function (a, val) {
   }
   return mid;
 };
-var three_v2 = function (nums) {
+let three_v2 = function (nums) {
   let output = [];
   nums = nums.sort((a, b) => {
     return a - b;
