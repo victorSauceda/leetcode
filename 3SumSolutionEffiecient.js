@@ -1,7 +1,7 @@
 let bsearch = function (a, val) {
   let low = 0;
   let high = a.length - 1;
-  var mid = Math.floor((low + high) / 2);
+  let mid = Math.floor((low + high) / 2);
   while (mid > low && a[mid] != val) {
     if (a[mid] < val) {
       low = mid;
